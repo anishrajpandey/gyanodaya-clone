@@ -1,7 +1,17 @@
-body {
+html {
   height: 100vh;
   background-image: url(https://lh3.googleusercontent.com/p/AF1QipN2zSoDXnFn6cN_jzgppsuqvwkR29k2lvIPUPVr=s1600-w400);
   background-repeat: no-repeat;
-  background-size: contain;
-  /* background-position: 700px 00px; */
+  /* background-size: cover; */
+}
+ul {
+  background-color: blue;
+  margin: 0;
+}
+li {
+  display: inline;
+  margin: 130px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: sans-serif;
 }
