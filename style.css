@@ -1,17 +1,32 @@
-html {
-  height: 100vh;
-  background-image: url(https://lh3.googleusercontent.com/p/AF1QipN2zSoDXnFn6cN_jzgppsuqvwkR29k2lvIPUPVr=s1600-w400);
-  background-repeat: no-repeat;
-  /* background-size: cover; */
+body {
+  margin: 0;
+  box-sizing: border-box;
 }
 ul {
-  background-color: blue;
-  margin: 0;
+  background-color: #4af44a;
+  /* margin: 0; */
+  padding: 0;
+  height: 80px;
 }
 li {
-  display: inline;
-  margin: 130px;
+  display: inline-block;
+  margin-top: -22px;
+  cursor: pointer;
+  color: black;
+
+  margin-left: 150px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 19px;
   font-family: sans-serif;
+}
+li.navitem {
+  /* margin-left: 150px; */
+}
+li:hover {
+  color: crimson;
+}
+img {
+  /* background-color: red; */
+  /* padding-top: 12px;
+  margin-top: 12px; */
 }
