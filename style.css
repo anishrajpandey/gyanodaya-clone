@@ -24,5 +24,9 @@ li.navitem {
 li:hover {
   color: crimson;
 }
-img {
+h2.heading {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: red;
+  width: 800px;
 }
