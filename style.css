@@ -19,8 +19,7 @@ li {
   font-size: 19px;
   font-family: sans-serif;
 }
-li.navitem {
-}
+
 li:hover {
   color: crimson;
 }
