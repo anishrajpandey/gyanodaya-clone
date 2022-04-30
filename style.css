@@ -20,13 +20,9 @@ li {
   font-family: sans-serif;
 }
 li.navitem {
-
 }
 li:hover {
   color: crimson;
 }
 img {
-  /* background-color: red; */
-  /* padding-top: 12px;
-  margin-top: 12px; */
 }
