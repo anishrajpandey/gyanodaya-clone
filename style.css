@@ -19,7 +19,7 @@ li {
 }
 
 li:hover {
-  color: hsl(52, 100%, 50%);
+  color: hsl(230, 100%, 50%);
 }
 h2.heading {
   font-family: sans-serif;
@@ -27,13 +27,16 @@ h2.heading {
   background-color: red;
   width: 800px;
 }
-.left {
-  width: 50%;
-  height: 100%;
+.container {
+  background: rgb(72, 66, 66);
+  height: 50px;
+}
+.info {
   display: inline-block;
 }
 img {
   margin-left: 200px;
+  margin-bottom: 20px;
 }
 span {
   display: inline-block;
