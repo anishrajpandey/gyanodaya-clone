@@ -15,7 +15,8 @@ li {
   margin-left: 150px;
 }
 li:hover {
-  color: blueviolet;
+  color: red;
+  text-decoration: underline;
 }
 
 h1 {
