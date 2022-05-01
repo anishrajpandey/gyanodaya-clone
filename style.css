@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 ul {
-  background-color: #554af4;
+  background-color: whitesmoke;
   margin: 0;
   padding: 0;
   /* height: 50px; */
@@ -28,19 +28,12 @@ h2.heading {
   width: 800px;
 }
 .left {
-  background-color: aquamarine;
   width: 50%;
   height: 100%;
   display: inline-block;
 }
-.right {
-  /* background-color: crimson; */
-  width: 49%;
-  height: 100%;
-  display: inline-block;
-}
-.right img {
-  margin-left: 100px;
+img {
+  margin-left: 200px;
 }
 span {
   display: inline-block;
