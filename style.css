@@ -3,7 +3,7 @@ body {
   box-sizing: border-box;
 }
 ul {
-  background-color: #4af44a;
+  background-color: #554af4;
   /* margin: 0; */
   padding: 0;
   height: 80px;
@@ -21,7 +21,7 @@ li {
 }
 
 li:hover {
-  color: crimson;
+  color: hsl(52, 100%, 50%);
 }
 h2.heading {
   font-family: sans-serif;
