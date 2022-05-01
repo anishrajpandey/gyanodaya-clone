@@ -34,8 +34,14 @@ h2.heading {
   display: inline-block;
 }
 .right {
-  background-color: crimson;
+  /* background-color: crimson; */
   width: 49%;
   height: 100%;
+  display: inline-block;
+}
+.right img {
+  margin-left: 100px;
+}
+span {
   display: inline-block;
 }
