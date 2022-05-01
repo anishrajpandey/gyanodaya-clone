@@ -1,43 +1,69 @@
 body {
-  margin: 0;
-  box-sizing: border-box;
+  background-image: url("./subtle-prism.svg");
+  font-family: sans-serif;
 }
 ul {
-  background-color: whitesmoke;
-  margin: 0;
-  padding: 0;
-  /* height: 50px; */
+  border-bottom: 3px solid black;
+  display: flex;
+  align-items: center;
 }
 li {
-  display: inline-block;
-  margin-left: 150px;
+  list-style: none;
   cursor: pointer;
-
   font-weight: bold;
   font-size: 19px;
-  font-family: sans-serif;
+  margin-left: 150px;
+}
+li:hover {
+  color: blueviolet;
 }
 
-li:hover {
-  color: hsl(230, 100%, 50%);
+h1 {
+  padding-left: 200px;
+  padding-top: 30px;
+  font-size: 40px;
+  color: blueviolet;
+  margin: 0;
 }
-h2.heading {
-  font-family: sans-serif;
+#paragraph {
+  width: 60%;
   text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  border-width: 2px;
+  border-style: dashed;
+  border-color: black;
+  border-radius: 12px;
+  margin-top: 5px;
+}
+#paragraph:hover {
+  background-color: blueviolet;
+  color: white;
+}
+img#homeImage {
+  float: right;
+  margin-top: -340px;
+  border-radius: 20px;
+}
+.button {
+  display: inline-block;
   background-color: red;
-  width: 800px;
-}
-.container {
-  background: rgb(72, 66, 66);
-  height: 50px;
-}
-.info {
-  display: inline-block;
-}
-img {
+  width: 200px;
+  height: 40px;
+  border-radius: 32px;
   margin-left: 200px;
-  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
 }
-span {
-  display: inline-block;
+a.button:hover {
+  background: none;
+  color: black;
+  border: 2px solid red;
+}
+a.button:active {
+  background-color: green;
 }
