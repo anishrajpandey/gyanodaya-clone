@@ -89,3 +89,9 @@ a.button2:hover {
 a.button2:active {
   background-color: green;
 }
+marquee {
+  width: 65%;
+  margin-top: 150px;
+  border-bottom: 2px solid black;
+  color: black;
+}
