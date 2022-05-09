@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-image: url("./subtle-prism.svg");
+  background-image: url(".images/subtle-prism.svg");
   font-family: sans-serif;
 }
 /* for navigation bar */
@@ -44,7 +44,6 @@ h1 {
   border-color: black;
   border-radius: 12px;
   margin-top: 5px;
-  background-color: rgb(223, 204, 242, 0.2);
 }
 #paragraph:hover {
   background-color: blueviolet;
@@ -75,7 +74,7 @@ a.button1:hover {
   border: 2px solid red;
 }
 a.button1:active {
-  background-color: green;
+  background-color: blue;
 }
 .button2 {
   display: inline-block;
@@ -111,9 +110,9 @@ p.aboutUsText {
   width: 50%;
   margin-left: 400px;
   font-size: 20px;
-  color: red;
+
   line-height: 2;
-  background-color: rgb(98, 248, 120);
+  background-color: rgba(255, 87, 87, 0.53);
   padding: 20px;
   border-radius: 12px;
 }
@@ -172,4 +171,20 @@ p.cpyright {
   margin-top: 30px;
   text-align: center;
   color: gray;
+}
+/* social media links */
+.social-media {
+  width: 100%;
+  color: gray;
+  height: 50px;
+
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
 }
